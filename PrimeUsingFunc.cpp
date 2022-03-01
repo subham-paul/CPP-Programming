@@ -1,9 +1,11 @@
 #include <iostream>
-#include <math.h>
 using namespace std;
+
+// 1 -> Prime No.
+// 0 -> Not Prime No.
 bool isPrime(int num)
 {
-    for (int i = 2; i <= sqrt(num); i++)
+    for (int i = 2; i <= num; i++)
     {
         if (num % i == 0)
         {
